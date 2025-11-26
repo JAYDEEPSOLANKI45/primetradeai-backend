@@ -1,6 +1,16 @@
 # PrimeTrade — Quick README
 
-Repo layout (relative paths):
+## Deployment
+
+- Frontend deployed: https://primetradeai-frontend-bb37djhj2-jaydeepsolanki45s-projects.vercel.app/
+- Backend hosted on Render (free tier);
+
+## **the free plan may sleep and cause downtime after inactivity.**
+
+Admin access (testing)
+
+- A seeded super-user exists for testing: `admin@gmail.com` with password `admin` — this account is `super-admin` and can create users, change roles, and delete users.
+  Repo layout (relative paths):
 
 - `server/` — backend (Express + Mongoose)
 - `frontend/` — static UI (HTML/CSS/JS)
@@ -49,7 +59,7 @@ API summary
 - Tasks: `POST /tasks`, `GET /tasks`, `GET /tasks/:id`, `PATCH /tasks/:id`, `DELETE /tasks/:id`
 - Admin: `GET/POST/PUT/DELETE /admin/users` (protected)
 
-### ***Note: The frontend is made with help of no-code tool COPILOT.***
+### **_Note: The frontend is made with help of no-code tool COPILOT._**
 
 Fix / Change list (TODO)
 
