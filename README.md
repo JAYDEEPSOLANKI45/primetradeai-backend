@@ -2,7 +2,7 @@
 
 ## Deployment
 
-- Frontend deployed: https://primetradeai-frontend-bb37djhj2-jaydeepsolanki45s-projects.vercel.app/
+- Frontend deployed: https://primetradeai-frontend.vercel.app/
 - Backend hosted on Render (free tier);
 
 ## **the free plan may sleep and cause downtime after inactivity.**
