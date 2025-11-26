@@ -13,7 +13,6 @@ Admin access (testing)
   Repo layout (relative paths):
 
 - `server/` — backend (Express + Mongoose)
-- `frontend/` — static UI (HTML/CSS/JS)
 
 Quick start — backend
 
@@ -40,18 +39,8 @@ JWT_SECRET=your_jwt_secret_here
 
 Server notes:
 
-- Server runs on `http://localhost:8080` by default.
-- Swagger UI: `http://localhost:8080/api-docs`.
-
-Quick start — frontend
-
-- Serve the `frontend/` folder with a static server, or add `express.static` in the backend.
-
-```cmd
-cd frontend
-python -m http.server 5500
-# open http://127.0.0.1:5500/login.html
-```
+- Server runs on `https://primetradeai-backend-i1zc.onrender.com`
+- Swagger UI: `https://primetradeai-backend-i1zc.onrender.com/api-docs/`.
 
 API summary
 
